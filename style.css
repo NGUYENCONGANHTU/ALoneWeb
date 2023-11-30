@@ -1,0 +1,130 @@
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300;400&family=Roboto+Mono:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.product-doremon{
+    background-color: #02A6D7;
+}
+.product-nobita{
+    background-color: #FFE06A;
+}
+.product-xuka{
+    background-color: #F098BE;
+}
+.product-xeko{
+    background-color: #52BC98;
+}
+.product-Jaian{
+    background-color: #EF874A;
+}
+.product-doremi{
+    background-color: #F6AACE;
+}
+.product-doremon .container-fluid .row .col-4 img{
+    border-radius: 100%;
+}
+
+.menu
+{
+    background-color:#0593c7;
+    padding: 5px;
+}
+.menu .row a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu .row .col-1{
+   padding: 10px;
+}
+.menu .row .col-5{
+    padding: 10px;
+ }
+.menu .row .col-5 a{
+    cursor: pointer;
+}
+.menu .row .col-5 a:hover{
+   color: white;
+}
+#menuactive{
+    cursor: pointer;
+}
+#menuactive:hover
+{
+    background-color: whitesmoke;
+    color:#19AFC8 ;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+.col-1 a:hover
+{
+    cursor: pointer;
+    color:#19AFC8 ;
+
+}
+.title-about{
+    padding: 100px;
+    display: block;
+}
+.title-text h1{
+    padding: 70px;
+    color: #0493C7;
+    font-size: 50px;
+   
+}
+.about .container .row .col-5 img{
+    border-radius: 100%;
+ 
+}
+.about .container .row .col-5{
+    border-right: 3px solid#02AFEF ;
+    text-align: center;
+}
+.about .container .row .col-7 h3{
+  color:#19AFC8 ;
+  margin-bottom: 25px;
+}
+.title-portfolio{
+    padding: 70px;
+    display: block;
+}
+.portfolio .container .row .col-4 img
+{
+    width: 400px;
+    height: 400px;
+    object-fit: scale-down;
+}
+.title-BLog{
+    padding: 50px;
+    display: block;
+}
+
+.Blog .container .row .col-3 img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+}
+.Blog .container .row .col-3 .text
+{
+    text-align: center; 
+
+}
+.Blog .container .row .col-3{
+    text-align: center;
+
+}
+.Blog .container .row .col-3 .text{
+    margin-top: 20px;
+    background-color: #eee7e7;
+    color: #19AFC8;
+}
+#pagenumber{
+    padding:  5px;
+}
+
+
